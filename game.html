@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesForIndex.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>RPG - Dragon Repeller</title>
+
+  </head>
+
+  <body>
+
+      <div id="stats">
+        <span class="stat"><i class="fas fa-yin-yang"></i>: <strong><span id="xpText">0</span></strong></span>
+        <span class="stat"><i class="fas fa-heart"></i>: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat"><i class="fas fa-coins"></i>: <strong><span id="goldText">50</span></strong></span>
+      </div>
+
+      <div id="container">
+    
+        <div id="img"></div>
+
+        <div id="text">
+          <p id="ptext">Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons below.</p>
+        </div>
+
+        <div id="monsterStats">
+          <span class="mstat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+          <span class="mstat">Health: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+
+        <div id="controls">
+          <button id="button1">Go to store</button>
+          <button id="button2">Go to cave</button>
+          <button id="button3">Fight dragon</button>
+        </div>
+
+      </div>
+
+      <div id="inventoryBagDiv">
+        <div id="inventoryBag" onclick="toggleInventory()"><img id="inventoryBagImg" src="inventory.png"></div>
+        <div id="inventoryWindow" class="hidden">
+          <ul id="items-list"></ul>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-image: url(stoneWall.jpg);
+    background-size: cover;
+    font-family: 'Uncial Antiqua';
+}
+h1{
+    width: 70%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    box-shadow: 0px 0px 50px white;
+}
+#subtitle{
+    font-size: 15px;
+}
+#container{
+    height: 65vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    margin: 15px 0;
+}
+button{
+    font-family: 'Uncial Antiqua';
+    width: 20vw;
+    max-width: 200px;
+    padding: 10px 0;
+    cursor: pointer;
+    background: linear-gradient(rgb(255, 255, 82), rgb(255, 200, 30));
+    border-radius: 5px;
+    box-shadow: 7px 7px 10px;
+}
+button:hover{
+    background: linear-gradient(rgb(200, 200, 65), rgb(200, 150, 25));
+}
+#comingSoon{
+    margin-top: 10vh;
+    font-weight: 1000;
+}
