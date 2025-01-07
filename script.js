@@ -300,7 +300,7 @@
      }
      text.innerText = "You picked " + guess + ". Here are the random numbers:\n";
      for (let i = 0; i < 10; i++) {
-       text.innerText += numbers[i] + ', ';
+        i = 9 ? text.innerText += numbers[i] + "\n" : text.innerText += numbers[i] + ', ';
      }
      if (numbers.includes(guess)) {
        text.innerText += "Right! You win 20 gold!";
