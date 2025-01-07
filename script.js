@@ -1,7 +1,3 @@
-/* 1. add a ρυθμισεις button which will give information to the user DONE
-   2. have different background iamges as we move 
-   3. display the monsters
-   4. inventory button */
    let xp = 0;
    let health = 100;
    let gold = 50;
